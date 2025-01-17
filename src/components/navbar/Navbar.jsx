@@ -1,21 +1,9 @@
 import React from 'react'
-
-const MenuItem = ({ icon, label, isActive }) => {
-    const styleActive = { border: "1px solid #fff" }
-    return <div
-        style={{
-            ...(isActive && styleActive),
-            borderRadius: "16px",
-            padding: "8px 12px", width: "fit-content"
-        }} className='flex align-center' >
-        <i class={icon}></i>
-        <p style={{ marginLeft: "4px" }}>{label}</p>
-    </div >
-}
+import MenuItem from './MenuItem'
 
 const Navbar = () => {
     return (
-        <div style={{ backgroundColor: "#003680", padding: "12px 24px", color: "#ffff" }} >
+        <div style={{ backgroundColor: "#003680", padding: "12px 48px", color: "#ffff" }} >
             <div className='flex align-center space-between'>
                 <p>Booking website</p>
                 <div>
