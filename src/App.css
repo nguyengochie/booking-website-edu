@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+p {
+    font-size: 16px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.btn-white {
+    background-color: #ffff;
+    color: #003680;
+    padding: 4px 8px;
+    font-size: 16px;
+    border: none;
+}
+
+.gap-12 {
+    gap: 12px
+}
